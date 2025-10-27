@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.painel-left{
+background-color: antiquewhite;
+width: 20%;
+height: 954px;
+border: black solid 1px;
+margin-right: 2px;
+margin-left: 2px;
+}
+.container-left{
+    background-color: azure;
+    width: 100%;
+    height: 15%;
+}
+.painel-right{
+    background-color: beige;
+    width: 80%;
+    height: 954px;
+    border: black solid 1px;
+}
+.barra-superior{
+    background-color: aquamarine;
+    width: 100%;
+    height: 10%;
+}
